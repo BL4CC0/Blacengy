@@ -17,7 +17,7 @@ body{
 
 /* #59ADFF */
 
-@media only screen and (min-width: 499px) {
+@media only screen and (min-width: 501px) {
     .onlyMovileDevice {
         display: none;
     }
