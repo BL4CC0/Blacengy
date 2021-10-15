@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blacengy - Presupuesto</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="nav">
+        <i class="fa fa-2x fa-home"></i>
+        <img src="/assets/Blacengy.png" alt="brand-logo">
+        <i class="fa fa-2x fa-cog"></i>
+    </div>
+
+    <div class="head">
+        <h2>Presupuesto</h2>
+        <h4>Consulte sin compromiso</h4>
+    </div>
+
+    <div class="form">
+    <div class="webTipe">
+        <label for="webTipe">Tipo de sitio web:</label>
+        <br>
+        <select name="webTipe" id="webTipe">
+            <option value="1">Personal/Marca</option>
+            <option value="2">Landing Page</option>
+            <option value="3">Tienda Virtual</option>
+            <option value="4">Aplicacion Web</option>
+        </select>
+    </div>
+
+    <div class="cantSecc">
+        <label for="webSecc">Cantidad de secciones:</label>
+        <br>
+        <select name="webSecc" id="webSecc">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+        </select>
+    </div>
+
+    <div class="webDesing">
+
+        <p>¿Posee usted el diseño de su sitio?</p>
+        <input type="radio" name="yesWD" id="yesWD">
+        <label for="yesWD">Si</label>
+        <input type="radio" name="noWD" id="noWD">
+        <label for="noWD">No</label>
+    </div>
+
+    
+    <div class="responsive">
+    <p>Quiero que mi sitio se adapte a:</p>
+
+    <input type="checkbox" name="MD" id="MD">
+    <label for="MD">Dispositivos moviles</label>
+    <br>
+    <input type="checkbox" name="Tablets" id="Tablets">
+    <label for="Tablets">Tablets</label>
+    <br>
+    <input type="checkbox" name="Desktop" id="Desktop">
+    <label for="Desktop">Escritorio</label>
+</div>
+
+<div class="HD">
+    <p>¿Posee usted hosting y dominio?</p>
+    <input type="radio" name="yesHD" id="yesHD">
+    <label for="yesHD">Si</label>
+    <input type="radio" name="noHD" id="noHD">
+    <label for="noHD">No</label>
+
+</div>
+
+
+<p>Agregue un comentario detallando lo que desea en su sitio/aplicación web:</p>
+    <div class="comment">
+
+        <textarea name="coment" id="" cols="100%" rows="5" style="resize: none"></textarea>
+    </div>
+
+    <div class="resultado">
+        <span>Estimado:</span>
+        <span>00000$</span>
+    </div>
+
+    <button id="Consult" class="btn-consult">Consultar</button>
+    </div>
+
+
+    <div class="footer">
+        <div><img src="/assets/Group 6.png" alt=""></div>
+        <ul>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-github"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+    </div>
+
+</body>
+</html>

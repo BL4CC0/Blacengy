@@ -1,0 +1,109 @@
+body{
+    font-family:"Zilla Slab" ;
+    overflow-x: none;
+    font-weight: 300;
+}
+.nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+.nav img{
+    width:50% ;
+}
+
+h2, h4{
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+}
+.head{
+    margin: 40px 0;
+}
+
+.head h4{
+    color:gray
+}
+
+.form{
+    padding: 20px;
+}
+.webTipe{
+    padding:10px 0px;
+}
+.webTipe select{
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px 0;
+    padding: 5px 0;
+    width: 100%;
+}
+.cantSecc{
+    padding:10px;
+}
+.cantSecc select{
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px 0;
+    padding: 5px 0;
+    width: 50%;
+}
+.webDesing{
+    padding:10px 0px;
+}
+.webDesing label{
+    padding:0px 5px;
+    }
+
+.responsive{
+    padding:10px 0px;
+}
+.responsive input{
+    margin:0px 20px
+}
+.HD{
+    padding:10px 0px;
+    margin: 10px 0px 15px 0px;
+}
+.HD input{
+    padding:0px 5px;
+}
+.comment{
+
+    display: flex;
+    align-items: center;
+
+}
+.resultado{
+    font-weight: bold;
+    padding: 10px 0px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-consult{
+    margin:40px 0px 150px 0px;
+    padding: 10px;
+    width: 100%;
+    background:#59ADFF;
+    border: none;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1b9ce2;
+    
+    padding: 5px 15px;
+}
+.footer li{
+    display: inline-block;
+}
+.footer li a{
+    text-decoration: none;
+    color: black;
+}
+
