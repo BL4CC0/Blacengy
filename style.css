@@ -14,12 +14,84 @@ body{
     width:50% ;
 }
 
-h2, h4{
+
+/* #59ADFF */
+/* UTILIDADES */
+
+.d-flex{
+    display: flex;
     text-align: center;
+}
+.jcc{
+    justify-content: center;
+}
+.jcb{
+    justify-content: space-between;
+}
+.jca{
+    justify-content: space-around;
+}
+.aic{
+    align-items: center;
+}
+
+/* INICIO */
+
+.landing-area{
+    padding: 30px;
+    background: url(/assets/Mockup.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: end;
+}
+.landing-area b{
+    font-weight: bold;
+}
+.landing-area a{
+    background: white;
+    color: #59ADFF;
+    padding: 5px 10px;
+    border: none;
+    text-decoration: none;
+}
+.content{
+    padding: 40px;
+}
+.whoWeAre h3{
+    font-weight: 400;
+    text-align: center;
+}
+.whatWeOffer{
+    padding-top: 20px;
+}
+.whatWeOffer h3{
+    font-weight: 400;
+    text-align: center;
+}
+.ourClients{
+    padding-top: 20px;
+}
+.ourClients h3{
+    font-weight: 400;
+    text-align: center;
+}
+.contact{
+    padding-top: 20px;
+}
+.contact h3{
+    font-weight: 400;
+    text-align: center;
+}
+
+/* PRESUPUESTO */
+
+h2, h4{
     font-weight: 700;
     margin: 0;
 }
 .head{
+    text-align: center;
     margin: 40px 0;
 }
 
