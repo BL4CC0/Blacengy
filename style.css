@@ -64,7 +64,7 @@ body{
 
 .landing-area{
     padding: 30px;
-    background: url(/assets/Mockup.png);
+    background: url(assets/Mockup.png);
     background-position: center;
     background-size: cover;
     color: white;
