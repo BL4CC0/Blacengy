@@ -17,12 +17,12 @@ body{
 
 /* #59ADFF */
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 499px) {
     .onlyMovileDevice {
         display: none;
     }
   }
-@media only screen and (max-width: 501px) {
+@media only screen and (max-width: 500px) {
     .onlyInDesktop {
         display: none;
     }
