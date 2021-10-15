@@ -16,6 +16,31 @@ body{
 
 
 /* #59ADFF */
+
+@media only screen and (min-width: 500px) {
+    .onlyMovileDevice {
+        display: none;
+    }
+  }
+@media only screen and (max-width: 500px) {
+    .onlyInDesktop {
+        display: none;
+    }
+  }
+
+/* DESKTOP */
+
+.onlyInDesktop{
+    margin-top: 40vh;
+    padding: 50px;
+    text-align: center;
+    color: rgb(31, 122, 197);
+}
+.onlyInDesktop h2{
+    font-size: 48px;
+}
+  
+
 /* UTILIDADES */
 
 .d-flex{
